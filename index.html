@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Detailing Studio — Precision Auto Detailing, GTA</title>
+<meta name="description" content="Mobile and studio auto detailing across the Greater Toronto Area. Paint correction, ceramic coating, interior detailing and fleet care — precision, every panel.">
+<meta name="theme-color" content="#08090B">
+
+<!-- ============================================================
+     PLACEHOLDER NOTICE
+     This is a website DEMO built for "The Detailing Studio", a
+     placeholder brand name. Business name, contact details, the
+     WhatsApp number, the Formspree endpoint, and all photography
+     are placeholders — replace them with real details before
+     going live. See README.md for the full checklist.
+     ============================================================ -->
+
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<!-- ============================================================
+     INTRO ANIMATION
+     ============================================================ -->
+<div id="intro" aria-hidden="true">
+  <svg class="intro-mark" viewBox="0 0 64 64" fill="none">
+    <rect x="1" y="1" width="62" height="62" rx="4" stroke="#2A2E35" stroke-width="1"/>
+    <path d="M14 20H50" stroke="#0A6CFF" stroke-width="2" stroke-linecap="square"/>
+    <path d="M18 30L28 44L46 18" stroke="#E7E9EC" stroke-width="2.5" stroke-linecap="square" stroke-linejoin="miter"/>
+  </svg>
+  <span class="intro-word">The Detailing Studio</span>
+  <button class="skip-intro" id="skipIntro" type="button">Skip Intro</button>
+</div>
+
+<!-- ============================================================
+     NAVBAR
+     ============================================================ -->
+<header class="navbar" id="navbar">
+  <div class="container nav-inner">
+    <a href="#top" class="brand" aria-label="The Detailing Studio — home">
+      <img src="assets/logo.svg" alt="" width="34" height="34">
+      <span class="brand-word">The <span>Detailing</span> Studio</span>
+    </a>
+
+    <nav class="nav-links" id="navLinks" aria-label="Primary">
+      <a href="#services">Services</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#about">About</a>
+      <a href="#process">Process</a>
+      <a href="#faq">FAQ</a>
+      <a href="#reviews">Reviews</a>
+    </nav>
+
+    <div class="nav-cta">
+      <a href="#booking" class="btn btn-ghost">Get a Quote</a>
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navLinks" aria-label="Toggle menu">
+        <span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ============================================================
+       HERO
+       ============================================================ -->
+  <section class="hero" id="top">
+    <div class="hero-grid" aria-hidden="true"></div>
+    <div class="hero-glow" aria-hidden="true"></div>
+    <div class="container hero-content">
+      <p class="eyebrow">Mobile &amp; Studio Detailing · Greater Toronto Area</p>
+      <h1 class="gloss gloss-sweep">Paint deserves <em>precision.</em></h1>
+      <p class="lede">Hand washing, correction and ceramic protection carried out the way a car actually deserves — unhurried, inspected under LED light, and finished to a standard we'd want on our own vehicles.</p>
+      <div class="hero-actions">
+        <a href="#booking" class="btn btn-primary">Book Your Detail</a>
+        <a href="#services" class="btn btn-ghost">View Services</a>
+      </div>
+      <div class="hero-meta">
+        <div>
+          <strong>We come to you</strong>
+          <span>Fully self-contained mobile rig, GTA-wide</span>
+        </div>
+        <div>
+          <strong>Studio bay available</strong>
+          <span>By appointment for correction &amp; coating work</span>
+        </div>
+        <div>
+          <strong>Insured &amp; equipped</strong>
+          <span>Coating-safe, pH-balanced products only</span>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-cue" aria-hidden="true"><span class="line"></span> Scroll</div>
+  </section>
+
+  <!-- ============================================================
+       SERVICES
+       ============================================================ -->
+  <section class="section" id="services" aria-labelledby="servicesTitle">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">Services</p>
+        <h2 id="servicesTitle">Every service, one standard.</h2>
+      </div>
+    </div>
+    <div class="container">
+      <div class="grid-3">
+
+        <article class="service-card gloss reveal">
+          <span class="corner tl" aria-hidden="true"></span><span class="corner br" aria-hidden="true"></span>
+          <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2c3 4 6 7.5 6 11a6 6 0 1 1-12 0c0-3.5 3-7 6-11Z"/></svg></div>
+          <h3>Exterior Detailing</h3>
+          <p>Two-bucket hand wash, decontamination and a gloss-enhancing finish that resets the paint's surface.</p>
+        </article>
+
+        <article class="service-card gloss reveal reveal-delay-1">
+          <span class="corner tl" aria-hidden="true"></span><span class="corner br" aria-hidden="true"></span>
+          <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 17V9a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8M4 17h16M4 17l-1 3h18l-1-3M8 7V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/></svg></div>
+          <h3>Interior Detailing</h3>
+          <p>Deep vacuum, steam extraction and conditioning for leather, fabric and every panel gap.</p>
+        </article>
+
+        <article class="service-card gloss reveal reveal-delay-2">
+          <span class="corner tl" aria-hidden="true"></span><span class="corner br" aria-hidden="true"></span>
+          <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="8"/><path d="M12 8v4l3 2"/></svg></div>
+          <h3>Paint Correction</h3>
+          <p>Machine polishing to reduce swirl marks and fine scratches, measured stage by stage.</p>
+        </article>
+
+        <article class="service-card gloss reveal">
+          <span class="corner tl" aria-hidden="true"></span><span class="corner br" aria-hidden="true"></span>
+          <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3 4 6v6c0 5 3.5 7.8 8 9 4.5-1.2 8-4 8-9V6l-8-3Z"/></svg></div>
+          <h3>Ceramic Coating</h3>
+          <p>Long-term hydrophobic protection that holds gloss and simplifies every wash after.</p>
+        </article>
+
+        <article class="service-card gloss reveal reveal-delay-1">
+          <span class="corner tl" aria-hidden="true"></span><span class="corner br" aria-hidden="true"></span>
+          <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 16V8a1 1 0 0 1 1-1h9v9M13 10h4l3 3v3h-2M3 16a2 2 0 1 0 4 0M15 16a2 2 0 1 0 4 0M3 16h1"/></svg></div>
+          <h3>Mobile Detailing</h3>
+          <p>Our van is fully self-contained with its own water and power — no hookups needed at your home or office.</p>
+        </article>
+
+        <article class="service-card gloss reveal reveal-delay-2">
+          <span class="corner tl" aria-hidden="true"></span><span class="corner br" aria-hidden="true"></span>
+          <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 21V8l6-4 6 4v13M9 21V13h4v8M15 11l6-2v12h-6"/></svg></div>
+          <h3>Fleet &amp; Commercial</h3>
+          <p>Scheduled detailing programs for company vehicles, keeping your fleet client-ready.</p>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       GALLERY / RESULTS
+       ============================================================ -->
+  <section class="section section-alt" id="gallery" aria-labelledby="galleryTitle">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">Results</p>
+        <h2 id="galleryTitle">Recent work.</h2>
+        <p class="lede">This demo ships with placeholder tiles — swap each one for a real before/after photo from your own work.</p>
+      </div>
+
+      <div class="gallery-grid">
+        <!-- PLACEHOLDER: replace each tile below with a real <img src="assets/gallery/xxx.jpg" alt="..." loading="lazy"> -->
+        <div class="gallery-tile reveal">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" aria-hidden="true"><path d="M4 8h3l1.5-2h7L17 8h3a1 1 0 0 1 1 1v9a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1Z"/><circle cx="12" cy="13" r="3.5"/></svg>
+          <span>Add before/after photo</span>
+          <small>Exterior · Paint correction</small>
+        </div>
+        <div class="gallery-tile reveal reveal-delay-1">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" aria-hidden="true"><path d="M4 8h3l1.5-2h7L17 8h3a1 1 0 0 1 1 1v9a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1Z"/><circle cx="12" cy="13" r="3.5"/></svg>
+          <span>Add before/after photo</span>
+          <small>Interior · Deep clean</small>
+        </div>
+        <div class="gallery-tile reveal reveal-delay-2">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" aria-hidden="true"><path d="M4 8h3l1.5-2h7L17 8h3a1 1 0 0 1 1 1v9a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1Z"/><circle cx="12" cy="13" r="3.5"/></svg>
+          <span>Add before/after photo</span>
+          <small>Ceramic coating</small>
+        </div>
+        <div class="gallery-tile reveal">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" aria-hidden="true"><path d="M4 8h3l1.5-2h7L17 8h3a1 1 0 0 1 1 1v9a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1Z"/><circle cx="12" cy="13" r="3.5"/></svg>
+          <span>Add before/after photo</span>
+          <small>Wheels &amp; trim</small>
+        </div>
+        <div class="gallery-tile reveal reveal-delay-1">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" aria-hidden="true"><path d="M4 8h3l1.5-2h7L17 8h3a1 1 0 0 1 1 1v9a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1Z"/><circle cx="12" cy="13" r="3.5"/></svg>
+          <span>Add before/after photo</span>
+          <small>Mobile appointment</small>
+        </div>
+        <div class="gallery-tile reveal reveal-delay-2">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" aria-hidden="true"><path d="M4 8h3l1.5-2h7L17 8h3a1 1 0 0 1 1 1v9a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1Z"/><circle cx="12" cy="13" r="3.5"/></svg>
+          <span>Add before/after photo</span>
+          <small>Fleet vehicle</small>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       ABOUT
+       ============================================================ -->
+  <section class="section" id="about" aria-labelledby="aboutTitle">
+    <div class="container about-layout">
+      <div class="about-visual reveal" aria-hidden="true">
+        <svg viewBox="0 0 400 400" fill="none">
+          <path d="M40 260 L120 150 L280 150 L360 260" stroke="#2A2E35" stroke-width="1.5"/>
+          <path d="M60 260h280v40a10 10 0 0 1-10 10H70a10 10 0 0 1-10-10v-40Z" stroke="#B8BFC9" stroke-opacity="0.5" stroke-width="1.5"/>
+          <circle cx="120" cy="300" r="18" stroke="#0A6CFF" stroke-width="2"/>
+          <circle cx="280" cy="300" r="18" stroke="#0A6CFF" stroke-width="2"/>
+          <path d="M110 200h180" stroke="#B8BFC9" stroke-opacity="0.3" stroke-width="1"/>
+        </svg>
+      </div>
+      <div class="about-copy reveal reveal-delay-1">
+        <p class="eyebrow">About</p>
+        <h2>Built around the vehicle, not the checklist.</h2>
+        <!-- PLACEHOLDER COPY: replace with the real studio story, founding year, and owner background -->
+        <p>The Detailing Studio started with a simple frustration: most "details" are a rushed wash and a spray of tire shine. We wanted appointments that actually respected the car — proper paint decontamination, correction measured under real light, and coatings applied the way the manufacturer intends.</p>
+        <p>Every booking, mobile or in the studio bay, follows the same process regardless of the vehicle in front of us — a daily driver gets the same attention as a weekend car.</p>
+
+        <div class="counters">
+          <!-- PLACEHOLDER STATS: update with your real, verifiable numbers before publishing -->
+          <div class="counter reveal">
+            <strong data-count="5">0</strong>
+            <span>Years operating</span>
+          </div>
+          <div class="counter reveal reveal-delay-1">
+            <strong data-count="30">0</strong>
+            <span>GTA municipalities served</span>
+          </div>
+          <div class="counter reveal reveal-delay-2">
+            <strong data-count="100" data-suffix="%">0</strong>
+            <span>Coating-safe products</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       WHY CHOOSE US
+       ============================================================ -->
+  <section class="section section-alt" id="why" aria-labelledby="whyTitle">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">Why Choose Us</p>
+        <h2 id="whyTitle">The details other details skip.</h2>
+      </div>
+
+      <div class="grid-2">
+        <div class="why-item reveal">
+          <div class="why-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3 4 6v6c0 5 3.5 7.8 8 9 4.5-1.2 8-4 8-9V6l-8-3Z"/><path d="m9 12 2 2 4-4"/></svg></div>
+          <div><h4>Insured &amp; background-checked</h4><p>Every technician on the van or in the bay is vetted and covered before they touch your vehicle.</p></div>
+        </div>
+        <div class="why-item reveal reveal-delay-1">
+          <div class="why-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2v6M12 16v6M4.9 4.9l4.2 4.2M14.9 14.9l4.2 4.2M2 12h6M16 12h6M4.9 19.1l4.2-4.2M14.9 9.1l4.2-4.2"/></svg></div>
+          <div><h4>Coating-safe, pH-balanced products</h4><p>Nothing that strips wax or interferes with an existing ceramic layer goes near your paint.</p></div>
+        </div>
+        <div class="why-item reveal reveal-delay-2">
+          <div class="why-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="7" width="13" height="10" rx="1.5"/><path d="M16 10h3l2 2.5V17h-5"/><circle cx="7.5" cy="18" r="1.5"/><circle cx="17" cy="18" r="1.5"/></svg></div>
+          <div><h4>Self-contained mobile setup</h4><p>Our van carries its own water and power, so nothing is needed from your home or office.</p></div>
+        </div>
+        <div class="why-item reveal">
+          <div class="why-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 18h6M10 21h4M12 3a6 6 0 0 0-3.7 10.7c.5.4.7 1 .7 1.6V16h6v-.7c0-.6.2-1.2.7-1.6A6 6 0 0 0 12 3Z"/></svg></div>
+          <div><h4>Inspected under LED light</h4><p>Every panel is checked under high-CRI lighting before we call a service finished.</p></div>
+        </div>
+        <div class="why-item reveal reveal-delay-1">
+          <div class="why-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h16v4H4z"/><path d="M4 8v12h16V8M9 12h6"/></svg></div>
+          <div><h4>Transparent, itemized quotes</h4><p>You see exactly what's included before you book — no surprise add-ons at pickup.</p></div>
+        </div>
+        <div class="why-item reveal reveal-delay-2">
+          <div class="why-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg></div>
+          <div><h4>Flexible scheduling</h4><p>Evening and weekend appointments available across the GTA, seven days a week.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       PROCESS TIMELINE
+       ============================================================ -->
+  <section class="section" id="process" aria-labelledby="processTitle">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">Process</p>
+        <h2 id="processTitle">How a booking runs, start to finish.</h2>
+      </div>
+
+      <ol class="timeline">
+        <li class="timeline-step reveal">
+          <span class="timeline-num">01</span>
+          <h4>Request a Quote</h4>
+          <p>Tell us about your vehicle and the service you need, online or by WhatsApp.</p>
+        </li>
+        <li class="timeline-step reveal reveal-delay-1">
+          <span class="timeline-num">02</span>
+          <h4>Vehicle Assessment</h4>
+          <p>We review paint and interior condition together and confirm what to expect.</p>
+        </li>
+        <li class="timeline-step reveal reveal-delay-2">
+          <span class="timeline-num">03</span>
+          <h4>Detailing Service</h4>
+          <p>Performed at your home or office, or in our studio bay for correction and coating work.</p>
+        </li>
+        <li class="timeline-step reveal reveal-delay-3">
+          <span class="timeline-num">04</span>
+          <h4>Quality Inspection</h4>
+          <p>Every panel is checked under LED lighting before we consider the job finished.</p>
+        </li>
+        <li class="timeline-step reveal reveal-delay-4">
+          <span class="timeline-num">05</span>
+          <h4>Ready for Handover</h4>
+          <p>A short walkthrough of the finished work, plus care recommendations for what's next.</p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       FAQ
+       ============================================================ -->
+  <section class="section section-alt" id="faq" aria-labelledby="faqTitle">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">FAQ</p>
+        <h2 id="faqTitle">Common questions.</h2>
+      </div>
+
+      <div class="faq-list">
+        <div class="faq-item reveal" data-open="false">
+          <h3><button class="faq-q" aria-expanded="false">Do you come to my home or workplace?<span class="plus" aria-hidden="true"></span></button></h3>
+          <div class="faq-a"><p>Yes — our mobile service covers the Greater Toronto Area. Our van carries its own water and power, so no hookups are needed on site. For paint correction and ceramic coating we generally recommend booking the studio bay for a controlled environment.</p></div>
+        </div>
+        <div class="faq-item reveal" data-open="false">
+          <h3><button class="faq-q" aria-expanded="false">How long does a full detail take?<span class="plus" aria-hidden="true"></span></button></h3>
+          <div class="faq-a"><p>A standard interior and exterior detail typically runs a few hours depending on vehicle size and condition. Paint correction and ceramic coating appointments take longer — we'll confirm a time estimate when we review your vehicle.</p></div>
+        </div>
+        <div class="faq-item reveal" data-open="false">
+          <h3><button class="faq-q" aria-expanded="false">What's the difference between a wash and paint correction?<span class="plus" aria-hidden="true"></span></button></h3>
+          <div class="faq-a"><p>A wash cleans the surface. Paint correction uses machine polishing to actually reduce swirl marks, oxidation and fine scratches sitting in the clear coat — it's a separate, more involved service.</p></div>
+        </div>
+        <div class="faq-item reveal" data-open="false">
+          <h3><button class="faq-q" aria-expanded="false">How long does ceramic coating last?<span class="plus" aria-hidden="true"></span></button></h3>
+          <div class="faq-a"><p>Longevity depends on the product tier and how the vehicle is maintained afterward. We'll walk you through the options and expected lifespan for your situation during your quote.</p></div>
+        </div>
+        <div class="faq-item reveal" data-open="false">
+          <h3><button class="faq-q" aria-expanded="false">Do I need to provide water or power for mobile appointments?<span class="plus" aria-hidden="true"></span></button></h3>
+          <div class="faq-a"><p>No. Our van is fully self-contained, so mobile appointments don't require access to your water or electricity.</p></div>
+        </div>
+        <div class="faq-item reveal" data-open="false">
+          <h3><button class="faq-q" aria-expanded="false">What forms of payment do you accept?<span class="plus" aria-hidden="true"></span></button></h3>
+          <div class="faq-a"><p>Add your accepted payment methods here — e.g. e-transfer, major credit cards, or tap/contactless on-site.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       REVIEWS (placeholders only)
+       ============================================================ -->
+  <section class="section" id="reviews" aria-labelledby="reviewsTitle">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">Reviews</p>
+        <h2 id="reviewsTitle">What clients say.</h2>
+        <p class="lede">Placeholder cards — replace with real, attributed reviews once you have them. Never publish invented testimonials.</p>
+      </div>
+
+      <div class="reviews-grid">
+        <div class="review-card reveal">
+          <div class="review-stars" aria-hidden="true">★★★★★</div>
+          <p>"Client review placeholder — replace with a real, attributed quote before publishing."</p>
+          <div class="review-meta">Name Placeholder · Service Placeholder</div>
+        </div>
+        <div class="review-card reveal reveal-delay-1">
+          <div class="review-stars" aria-hidden="true">★★★★★</div>
+          <p>"Client review placeholder — replace with a real, attributed quote before publishing."</p>
+          <div class="review-meta">Name Placeholder · Service Placeholder</div>
+        </div>
+        <div class="review-card reveal reveal-delay-2">
+          <div class="review-stars" aria-hidden="true">★★★★★</div>
+          <p>"Client review placeholder — replace with a real, attributed quote before publishing."</p>
+          <div class="review-meta">Name Placeholder · Service Placeholder</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       BOOKING FORM
+       ============================================================ -->
+  <section class="section section-alt" id="booking" aria-labelledby="bookingTitle">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">Get a Quote</p>
+        <h2 id="bookingTitle">Tell us about your vehicle.</h2>
+        <p class="lede">Fill this in and we'll reply with pricing and availability. Prefer to chat? Use the WhatsApp button in the corner.</p>
+      </div>
+
+      <div class="form-wrap reveal">
+        <!--
+          FORM ENDPOINT PLACEHOLDER
+          Replace YOUR_FORM_ID below with your real Formspree form ID
+          (https://formspree.io). Nothing will send until you do.
+        -->
+        <form id="bookingForm" action="https://formspree.io/f/YOUR_FORM_ID" method="POST" novalidate>
+          <div class="form-grid">
+            <div class="field">
+              <label for="name">Full name</label>
+              <input type="text" id="name" name="name" autocomplete="name" required>
+            </div>
+            <div class="field">
+              <label for="phone">Phone</label>
+              <input type="tel" id="phone" name="phone" autocomplete="tel" required>
+            </div>
+            <div class="field">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" autocomplete="email" required>
+            </div>
+            <div class="field">
+              <label for="area">Address / GTA area</label>
+              <input type="text" id="area" name="area" placeholder="e.g. Mississauga, or full address" required>
+            </div>
+
+            <div class="field">
+              <label for="make">Vehicle make</label>
+              <input type="text" id="make" name="vehicle_make" placeholder="e.g. BMW" required>
+            </div>
+            <div class="field">
+              <label for="model">Vehicle model</label>
+              <input type="text" id="model" name="vehicle_model" placeholder="e.g. 3 Series" required>
+            </div>
+            <div class="field">
+              <label for="year">Vehicle year</label>
+              <input type="number" id="year" name="vehicle_year" min="1970" max="2027" placeholder="e.g. 2021" required>
+            </div>
+            <div class="field">
+              <label for="type">Vehicle type</label>
+              <select id="type" name="vehicle_type" required>
+                <option value="" disabled selected>Select one</option>
+                <option>Sedan</option>
+                <option>SUV</option>
+                <option>Truck</option>
+                <option>Coupe</option>
+                <option>Van / Minivan</option>
+                <option>Other</option>
+              </select>
+            </div>
+
+            <div class="field">
+              <label for="service">Required service</label>
+              <select id="service" name="service" required>
+                <option value="" disabled selected>Select one</option>
+                <option>Exterior Detail</option>
+                <option>Interior Detail</option>
+                <option>Full Detail (Interior + Exterior)</option>
+                <option>Paint Correction</option>
+                <option>Ceramic Coating</option>
+                <option>Fleet / Commercial</option>
+                <option>Not sure — need a consult</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="date">Preferred date</label>
+              <input type="date" id="date" name="preferred_date" required>
+            </div>
+            <div class="field">
+              <label for="time">Preferred time</label>
+              <select id="time" name="preferred_time" required>
+                <option value="" disabled selected>Select a window</option>
+                <option>Morning (8am – 11am)</option>
+                <option>Midday (11am – 2pm)</option>
+                <option>Afternoon (2pm – 5pm)</option>
+                <option>Evening (5pm – 7pm)</option>
+              </select>
+            </div>
+            <div class="field full">
+              <label for="notes">Notes</label>
+              <textarea id="notes" name="notes" placeholder="Anything else we should know — condition of the paint, parking access, prior coatings, etc."></textarea>
+            </div>
+          </div>
+
+          <div class="form-foot">
+            <p class="form-note">Fields marked required must be completed. We typically reply within one business day.</p>
+            <button type="submit" class="btn btn-primary" id="formSubmit">Request Quote</button>
+          </div>
+
+          <div class="form-status" id="formStatus" role="status" aria-live="polite"></div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============================================================
+     STICKY MOBILE BOOK NOW BAR
+     ============================================================ -->
+<div class="mobile-cta">
+  <a href="#booking" class="btn btn-primary btn-block">Book Now</a>
+</div>
+
+<!-- ============================================================
+     FLOATING WHATSAPP BUTTON
+     href is built in script.js from the phone number + message
+     placeholders defined at the top of that file.
+     ============================================================ -->
+<a href="#" id="whatsappFloat" class="whatsapp-float" target="_blank" rel="noopener" aria-label="Chat with us on WhatsApp">
+  <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16.01 3C9.38 3 4 8.36 4 14.97c0 2.2.6 4.28 1.7 6.13L4 29l8.1-1.65c1.77.94 3.79 1.48 5.9 1.48 6.63 0 12.01-5.36 12.01-11.97C30.01 8.36 22.64 3 16.01 3Zm6.99 17.02c-.29.82-1.68 1.57-2.32 1.66-.6.09-1.34.13-2.16-.13-.5-.16-1.14-.37-1.96-.72-3.45-1.49-5.7-4.94-5.87-5.17-.17-.23-1.4-1.86-1.4-3.55 0-1.69.89-2.51 1.2-2.86.32-.34.68-.42.9-.42.23 0 .46 0 .66.01.21.01.5-.08.78.6.29.7.98 2.4 1.06 2.58.09.17.15.38.03.61-.11.23-.17.37-.34.57-.17.2-.35.44-.5.6-.17.17-.34.35-.15.69.2.34.87 1.43 1.86 2.32 1.28 1.14 2.36 1.5 2.7 1.67.35.17.55.14.75-.08.2-.23.86-1 1.09-1.35.23-.34.46-.28.77-.17.32.11 2 .94 2.34 1.11.35.17.58.26.66.4.09.15.09.86-.2 1.68Z"/></svg>
+</a>
+
+<!-- ============================================================
+     FOOTER
+     ============================================================ -->
+<footer class="footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <a href="#top" class="brand" aria-label="The Detailing Studio — home">
+        <img src="assets/logo.svg" alt="" width="34" height="34" loading="lazy">
+        <span class="brand-word">The <span>Detailing</span> Studio</span>
+      </a>
+      <p>Mobile and studio auto detailing across the Greater Toronto Area. Paint correction, ceramic coating and interior care, done properly.</p>
+      <div class="footer-social" aria-label="Social media">
+        <!-- PLACEHOLDER: point these at your real profiles -->
+        <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1"/></svg></a>
+        <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M15 8h2V5h-2a4 4 0 0 0-4 4v2H9v3h2v7h3v-7h2.5l.5-3H14V9a1 1 0 0 1 1-1Z"/></svg></a>
+        <a href="#" aria-label="Google reviews"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="m12 2 2.6 5.9L21 9l-4.5 4.4L17.6 20 12 16.9 6.4 20l1.1-6.6L3 9l6.4-1.1L12 2Z"/></svg></a>
+      </div>
+    </div>
+
+    <nav class="footer-col" aria-label="Site">
+      <h4>Site</h4>
+      <ul>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#process">Process</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ul>
+    </nav>
+
+    <div class="footer-col">
+      <h4>Contact</h4>
+      <ul>
+        <!-- PLACEHOLDER CONTACT DETAILS -->
+        <li><a href="tel:+14165550100">(416) 555-0100</a></li>
+        <li><a href="mailto:hello@thedetailingstudio-demo.com">hello@thedetailingstudio-demo.com</a></li>
+        <li>Mon–Sun, 8am – 7pm</li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h4>Service Area</h4>
+      <ul>
+        <li>Toronto</li>
+        <li>Mississauga · Brampton</li>
+        <li>Vaughan · Markham</li>
+        <li>Oakville · Burlington</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="container footer-bottom">
+    <span>© <span id="currentYear"></span> The Detailing Studio. Demo site — not a live business.</span>
+    <span>Built as a static HTML/CSS/JS demo.</span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
